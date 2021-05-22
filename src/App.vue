@@ -13,7 +13,7 @@
             >К каталогу компаний</action-button>
 
             <main class="main">
-                <header class="main-header"></header>
+                <main-header />
 
                 <div class="main-content"></div>
             </main>
@@ -28,6 +28,7 @@
 import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs.vue';
 import SearchField from './components/SearchField/SearchField.vue';
 import ActionButton from './components/ActionButton/ActionButton.vue';
+import MainHeader from './components/MainHeader/MainHeader.vue';
 
 export default {
   name: 'App',
@@ -35,6 +36,7 @@ export default {
     Breadcrumbs,
     SearchField,
     ActionButton,
+    MainHeader,
   },
 };
 </script>

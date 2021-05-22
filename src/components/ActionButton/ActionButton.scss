@@ -20,4 +20,15 @@
     height: 10px;
     background-image: url("../../assets/ActionButtonIconPrevious.svg");
   }
+
+  &_icon_comments::before {
+    width: 16px;
+    height: 14px;
+    margin-right: 6px;
+    background-image: url("../../assets/ActionButtonIconComment.svg");
+  }
+
+  &_type_secondary {
+    color: #888888;
+  }
 }
