@@ -25,6 +25,14 @@
                             <Section header="Фото продукции">
                             </Section>
                         </section-subgroup>
+
+                        <company class="section-subgroup">
+                            <template v-slot:header>
+                                <img src="./assets/ComponyHeader.png" alt="Преображенский МПК"/>
+                            </template>
+
+                            <company-information/>
+                        </company>
                     </section-group>
                 </div>
             </main>
@@ -45,6 +53,8 @@ import SectionGroup from './components/SectionGroup/SectionGroup.vue';
 import SectionSubgroup from './components/SectionSubgroup/SectionSubgroup.vue';
 import Section from './components/Section/Section.vue';
 import LastAnnouncement from './components/LastAnnouncement/LastAnnouncement.vue';
+import Company from './components/Company/Company.vue';
+import CompanyInformation from './components/CompanyInformation/CompanyInformation.vue';
 
 export default {
   name: 'App',
@@ -58,6 +68,8 @@ export default {
     SectionSubgroup,
     Section,
     LastAnnouncement,
+    Company,
+    CompanyInformation,
   },
 };
 </script>
