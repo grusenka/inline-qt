@@ -1,0 +1,27 @@
+.company-information {
+  padding: 16px;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+
+  &__term,
+  &__description {
+    display: inline;
+    margin: 0;
+  }
+
+  &__term {
+    font-weight: 500;
+  }
+
+  &__term:after {
+    content: ':';
+  }
+
+  &__description::after {
+    content: '';
+    display: block;
+    margin-bottom: 8px;
+  }
+}

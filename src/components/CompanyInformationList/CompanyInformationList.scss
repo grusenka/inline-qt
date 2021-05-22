@@ -1,0 +1,11 @@
+.company-information-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  &__item::before {
+    content: '–';
+    display: inline-block;
+    margin-right: 3px;
+  }
+}
