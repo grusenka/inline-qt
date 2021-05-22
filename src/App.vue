@@ -23,6 +23,7 @@
                             </Section>
 
                             <Section header="Фото продукции">
+                                <product-list />
                             </Section>
                         </section-subgroup>
 
@@ -55,6 +56,7 @@ import Section from './components/Section/Section.vue';
 import LastAnnouncement from './components/LastAnnouncement/LastAnnouncement.vue';
 import Company from './components/Company/Company.vue';
 import CompanyInformation from './components/CompanyInformation/CompanyInformation.vue';
+import ProductList from './components/ProductList/ProductList.vue';
 
 export default {
   name: 'App',
@@ -70,6 +72,7 @@ export default {
     LastAnnouncement,
     Company,
     CompanyInformation,
+    ProductList,
   },
 };
 </script>
