@@ -1,0 +1,9 @@
+.banner-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-list__item:not(:first-child) {
+  margin-top: 20px;
+}
