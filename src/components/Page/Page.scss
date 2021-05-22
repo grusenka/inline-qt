@@ -1,11 +1,16 @@
 .page {
   display: grid;
+  box-sizing: border-box;
   width: 100%;
   max-width: 1366px;
   margin: auto;
   padding: 0 33px 104px;
   grid-template-columns: 1fr 160px ;
   grid-column-gap: 20px;
+
+  &__breadcrumbs {
+    margin: 32px 0 16px;
+  }
 
   &__sidebar {
     width: 160px;

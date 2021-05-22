@@ -3,6 +3,8 @@
 
     <div class="page">
         <div class="page__main">
+            <breadcrumbs class="page__breadcrumbs" />
+
             <main class="main">
                 <header class="main-header"></header>
 
@@ -16,8 +18,13 @@
 </template>
 
 <script>
+import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs.vue';
+
 export default {
   name: 'App',
+  components: {
+    Breadcrumbs,
+  },
 };
 </script>
 
