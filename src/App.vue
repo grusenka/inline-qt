@@ -15,7 +15,17 @@
             <main class="main">
                 <main-header />
 
-                <div class="main-content"></div>
+                <div class="main-content">
+                    <section-group>
+                        <section-subgroup>
+                            <Section header="Последние объявления сотрудников компании">
+                            </Section>
+
+                            <Section header="Фото продукции">
+                            </Section>
+                        </section-subgroup>
+                    </section-group>
+                </div>
             </main>
 
         </div>
@@ -30,6 +40,9 @@ import SearchField from './components/SearchField/SearchField.vue';
 import ActionButton from './components/ActionButton/ActionButton.vue';
 import MainHeader from './components/MainHeader/MainHeader.vue';
 import PageSidebar from './components/PageSidebar/PageSidebar.vue';
+import SectionGroup from './components/SectionGroup/SectionGroup.vue';
+import SectionSubgroup from './components/SectionSubgroup/SectionSubgroup.vue';
+import Section from './components/Section/Section.vue';
 
 export default {
   name: 'App',
@@ -39,6 +52,9 @@ export default {
     ActionButton,
     MainHeader,
     PageSidebar,
+    SectionGroup,
+    SectionSubgroup,
+    Section,
   },
 };
 </script>
