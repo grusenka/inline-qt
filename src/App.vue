@@ -20,7 +20,7 @@
 
         </div>
 
-        <aside class="page__sidebar"></aside>
+        <page-sidebar />
     </div>
 </template>
 
@@ -29,6 +29,7 @@ import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs.vue';
 import SearchField from './components/SearchField/SearchField.vue';
 import ActionButton from './components/ActionButton/ActionButton.vue';
 import MainHeader from './components/MainHeader/MainHeader.vue';
+import PageSidebar from './components/PageSidebar/PageSidebar.vue';
 
 export default {
   name: 'App',
@@ -37,6 +38,7 @@ export default {
     SearchField,
     ActionButton,
     MainHeader,
+    PageSidebar,
   },
 };
 </script>
