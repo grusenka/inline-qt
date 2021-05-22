@@ -3,8 +3,17 @@
 
     <div class="page">
         <div class="page__main">
+            <breadcrumbs class="page__breadcrumbs" />
+
+            <search-field placeholder="Поиск по компаниям" />
+
+            <action-button
+                    class="action-button_icon_previous page__previous"
+                    href="#"
+            >К каталогу компаний</action-button>
+
             <main class="main">
-                <header class="main-header"></header>
+                <main-header />
 
                 <div class="main-content"></div>
             </main>
@@ -16,8 +25,19 @@
 </template>
 
 <script>
+import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs.vue';
+import SearchField from './components/SearchField/SearchField.vue';
+import ActionButton from './components/ActionButton/ActionButton.vue';
+import MainHeader from './components/MainHeader/MainHeader.vue';
+
 export default {
   name: 'App',
+  components: {
+    Breadcrumbs,
+    SearchField,
+    ActionButton,
+    MainHeader,
+  },
 };
 </script>
 

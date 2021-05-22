@@ -1,0 +1,34 @@
+.main-header {
+  &__title {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+  }
+
+  &__title::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url("../../assets/MainHeaderTitle.svg");
+  }
+
+  &__group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+  }
+
+  &__subgroup {
+    display: flex;
+    align-items: center;
+  }
+
+  &__subgroup-item:not(:first-child) {
+    margin-left: 27px;
+  }
+}

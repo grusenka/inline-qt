@@ -1,0 +1,27 @@
+.breadcrumbs {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  color: #000;
+
+  &__item:not(:first-child)::before {
+    content: '/';
+    display: inline-block;
+    margin: 0 3px;
+    color: #999999
+  }
+
+  &__item:last-child::before {
+    color: inherit;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #999999;
+  }
+
+  &__link:hover {
+    text-decoration: underline;
+  }
+}
+
