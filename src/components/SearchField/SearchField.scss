@@ -1,0 +1,29 @@
+.search-field {
+  $blue: #005fae;
+
+  display: flex;
+  max-width: 940px;
+  height: 40px;
+  border: 2px solid $blue;
+  border-radius: 3px;
+
+  &__input {
+    width: 100%;
+    padding: 10px 0 10px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+  }
+
+  &__button {
+    width: 64px;
+    padding: 0;
+    font-size: 0;
+    background-color: $blue;
+    background-image: url("../../assets/SearchField.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+  }
+}
