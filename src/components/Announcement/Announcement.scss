@@ -1,0 +1,8 @@
+.announcement {
+  display: flex;
+  align-items: center;
+
+  &__title {
+    margin-left: 16px;
+  }
+}

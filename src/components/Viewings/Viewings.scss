@@ -13,4 +13,10 @@
     margin-right: 6px;
     background-image: url("../../assets/Viewings.svg");
   }
+
+  &_type_secondary::before {
+    width: 14px;
+    height: 8px;
+    background-image: url("../../assets/ViewingsSecondary.svg");
+  }
 }
