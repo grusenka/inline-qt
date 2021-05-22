@@ -1,0 +1,23 @@
+.action-button {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  color: #005fae;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &::before {
+    content: '';
+    margin-right: 8px;
+  }
+
+  &_icon_previous::before {
+    width: 12px;
+    height: 10px;
+    background-image: url("../../assets/ActionButtonIconPrevious.svg");
+  }
+}

@@ -7,6 +7,11 @@
 
             <search-field placeholder="Поиск по компаниям" />
 
+            <action-button
+                    class="action-button_icon_previous page__previous"
+                    href="#"
+            >К каталогу компаний</action-button>
+
             <main class="main">
                 <header class="main-header"></header>
 
@@ -22,12 +27,14 @@
 <script>
 import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs.vue';
 import SearchField from './components/SearchField/SearchField.vue';
+import ActionButton from './components/ActionButton/ActionButton.vue';
 
 export default {
   name: 'App',
   components: {
     Breadcrumbs,
     SearchField,
+    ActionButton,
   },
 };
 </script>
