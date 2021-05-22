@@ -1,0 +1,39 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+
+  &__row:not(:first-child) {
+    border-top: 1px solid #e0e0e0;
+  }
+
+  &__title {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+  }
+
+  &__title:first-child {
+    padding-left: 92px;
+    text-align: left;
+    border-radius: 3px 0 0 3px;
+  }
+
+  &__title:last-child {
+    border-radius: 0 3px 3px 0;
+  }
+
+  &__cell {
+    box-sizing: border-box;
+    padding: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  &__cell:first-child,
+  &__cell:last-child {
+    text-align: left;
+  }
+}

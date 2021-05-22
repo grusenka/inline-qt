@@ -19,6 +19,7 @@
                     <section-group>
                         <section-subgroup>
                             <Section header="Последние объявления сотрудников компании">
+                                <last-announcement />
                             </Section>
 
                             <Section header="Фото продукции">
@@ -43,6 +44,7 @@ import PageSidebar from './components/PageSidebar/PageSidebar.vue';
 import SectionGroup from './components/SectionGroup/SectionGroup.vue';
 import SectionSubgroup from './components/SectionSubgroup/SectionSubgroup.vue';
 import Section from './components/Section/Section.vue';
+import LastAnnouncement from './components/LastAnnouncement/LastAnnouncement.vue';
 
 export default {
   name: 'App',
@@ -55,6 +57,7 @@ export default {
     SectionGroup,
     SectionSubgroup,
     Section,
+    LastAnnouncement,
   },
 };
 </script>
